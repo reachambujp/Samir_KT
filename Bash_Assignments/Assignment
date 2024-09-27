@@ -1,0 +1,26 @@
+Start with this - https://linuxconfig.org/bash-scripting-conditionals
+
+Learn a bit about regex as it would be required for quick searches using grep, and sed commands and also when using regex in if-conditionals - https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/
+
+Write basic programs using shell script:
+- if, if-else, if-elif-else
+- using if - with single condition, multiple conditions, or (||), and (&&), nested-conditions
+- while-loop
+- for-loop
+- variable assignment
+- parameter expansion - https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html
+- arrays
+- looping over arrays
+- initializing arrays at runtime
+- heredocs - https://linuxize.com/post/bash-heredoc/
+- Using regex in if-block - https://www.baeldung.com/linux/regex-inside-if-clause#:~:text=Bash's%20if%20clause%20can%20match,for%20pattern%20matching%20in%20Bash.
+
+Questions:
+chatgpt should be able to answer to all of these questions. Idea is you try and understand what each of them does and practice yourself writing the programs.
+1. How to pass arguments to shell script and print each of them?
+2. Assuming user can pass weekday to your program. If user enters valid day, print "weekday recognized" else print "invalid weekday entered".
+3. Expand program on #2 to keep asking for input until user presses Ctrl + C
+4. Write a program to invoke shell command inline. For example assign current date to a variable and print the value of the variable as an example.
+5. How to get the status of last command executed?
+6. Write shellscript that accepts exactly one argument. If argument contains string like "day" print "found" else print "not found". Solve this using both pattern matching and regular expression.
+7. How to check the number of arguments passed as input to the shell script?
