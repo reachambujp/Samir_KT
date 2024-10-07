@@ -1,4 +1,4 @@
-#!?bin/bash
+#!/bin/bash
 
 echo $(date)
 daynum=$(date +"%u" )
