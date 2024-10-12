@@ -14,10 +14,14 @@ echo "Solution to Question-2"
 # fi
 
 #TODO: check if input is in (s,m,t,w,t,f,s). if it is print 'weekday found' else print 'weekday not found'.
-
-day=$1
-echo "Weekday=${day}"
-if [ "$day" == "sunday" || "$day" == "monday" || "$day" == "tuesday" || "$day" == "wednesday" || "$day" == "thrusady" || "$day" == "friday" || "$day" == "saturday"]; then
+#echo "Enter first alphabet of the day of the week"
+#day=$1
+read -p "Enter first alphabet of the day of the week: " day
+echo "Weekday=$day"
+if [[ "$day" == "s" || "$day" == "m" || "$day" == "w" || "$day" == "t" || "$day" == "f" ]]; then
+#if [ "$day" == "s" ] || [ "$day" == "m" ] || [ "$day" == "t" ] || [ "$day" == "w" ] || [ "$day" == "f" ] ; then
     echo "weekday found"
 else
-    echo "weekday not found"     
+    echo "weekday not found" 
+fi  
+
